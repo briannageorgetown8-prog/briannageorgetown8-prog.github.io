@@ -32,7 +32,7 @@ $(function () {
     // TODO 2 - Create Platforms
     createPlatform(500, 0, 20, 290, "gray"); // Tall vertical wall/barrier
     createPlatform(1350, 400, 50, 50, "red"); // Small red block on the right
-    createPlatform(200, 600, 100, 100, "green"); // Large base block on the bottom left
+    createPlatform(200, 700, 100, 100, "green"); // Large base block on the bottom left
     createPlatform(800, 300, 200, 20, "blue"); // Long floating jump platform
     createPlatform(1100, 150, 60, 60, "gold"); // Higher objective/reward platform
     // TODO 3 - Create Collectables
@@ -44,10 +44,10 @@ $(function () {
 
     // TODO 4 - Create Cannons
     createCannon("top", 200, 100);
-    createCannon("right", 300, 2000);
+    createCannon("right", 200,1000);
     createCannon("bottom", 800, 1500);
     createCannon("left", 1400, 500);
-    createCannon("top", 600, 1200);
+    createCannon("top", 200, 1200);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
