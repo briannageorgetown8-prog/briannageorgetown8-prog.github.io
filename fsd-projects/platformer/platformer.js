@@ -30,11 +30,14 @@ $(function () {
     toggleGrid();
 
     // TODO 2 - Create Platforms
-    createPlatform(500, 0, 20, 290, "gray"); // Tall vertical wall/barrier
-    createPlatform(1350, 400, 50, 50, "red"); // Small red block on the right
-    createPlatform(200, 700, 100, 100, "green"); // Large base block on the bottom left
-    createPlatform(800, 300, 200, 20, "blue"); // Long floating jump platform
-    createPlatform(1100, 150, 60, 60, "gold"); // Higher objective/reward platform
+    createPlatform(100, 650, 80, 20, "black");
+    createFakePlatform(250, 600, 80, 20, "green");
+    createPlatform(400, 550, 80, 20, "blue");
+    createFakePlatform(550, 500, 80, 20, "gold");
+    createPlatform(700, 450, 80, 20, "red");
+    createFakePlatform(850, 400, 80, 20, "purple");
+    createPlatform(1000, 350, 80, 20, "orange");
+    createFakePlatform(1150, 300, 80, 20, "yellow");
     // TODO 3 - Create Collectables
     createCollectable("steve", 1350, 50);
     createCollectable("diamond", 200, 170, 0.5, 0.7);
@@ -43,11 +46,11 @@ $(function () {
     createCollectable("max", 250, 550, 0.4, 0.4);
 
     // TODO 4 - Create Cannons
-    createCannon("top", 200, 100);
-    createCannon("right", 200,1000);
-    createCannon("bottom", 800, 1500);
-    createCannon("left", 1400, 500);
-    createCannon("top", 200, 1200);
+    createCannon("top", 200, 2000);
+    createCannon("right", 200, 2500);
+    createCannon("bottom", 800, 3000);
+    createCannon("left", 1400, 2500);
+    createCannon("top", 200, 2000);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
